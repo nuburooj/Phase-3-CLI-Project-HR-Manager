@@ -4,7 +4,14 @@ from models import db
 from utils import get_all_franchises, search_franchise_by_id, get_all_employees, add_employee_to_franchise, fire_employee_from_franchise, search_employee_by_id, change_employee_job
 
 def welcome_screen():
-  print("[yellow]Hello! Welcome to [/yellow][bold cyan]HR Manager[/bold cyan]")
+  print("""[yellow]
+ ____  ____ _______      ____    ____      _      ____  _____      _       ______ ________ _______     
+|_   ||   _|_   __ \    |_   \  /   _|    / \    |_   \|_   _|    / \    .' ___  |_   __  |_   __ \    
+  | |__| |   | |__) |     |   \/   |     / _ \     |   \ | |     / _ \  / .'   \_| | |_ \_| | |__) |   
+  |  __  |   |  __ /      | |\  /| |    / ___ \    | |\ \| |    / ___ \ | |   ____ |  _| _  |  __ /    
+ _| |  | |_ _| |  \ \_   _| |_\/_| |_ _/ /   \ \_ _| |_\   |_ _/ /   \ \\ `.___]  _| |__/ |_| |  \ \_  
+|____||____|____| |___| |_____||_____|____| |____|_____|\____|____| |____`._____.|________|____| |___|[/]                                                                                                              
+""")
 
 
 def display_main_menu():
